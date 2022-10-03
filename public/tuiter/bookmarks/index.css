@@ -1,0 +1,182 @@
+body
+{
+    background-color : black;
+    font-family: arial;
+}
+
+.wd-text-bold {
+    font-weight: bold;
+}
+
+.wd-main-page-style {
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-top:none;
+    border-bottom:none;
+    margin-top : -22px;
+
+}
+.wd-div-one{
+    padding : 16px;
+    margin-top : 12px;
+    font-size:20px;
+    color:white;
+}
+
+.wd-user{
+    font-size:13px;
+    color:lightgrey;
+    margin-top:-1px;
+}
+
+.wd-three-dot-icon {
+    float :right;
+    padding-right :16px;
+    color:rgb(29,161,242);
+}
+
+hr {
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    margin-top:-12px;
+
+}
+.wd-profile-img {
+    display :inline-block;
+    float :left;
+    width:48px;
+    height:48px;
+    padding : 16px;
+    margin-bottom:115px;
+    margin-top:-12px;
+    border-radius :50%;
+}
+
+.wd-user-title {
+    display :inline-block;
+    color:white;
+    padding-top:12px;
+    padding-left:12px;
+    padding : 12px;
+    font-size:15px;
+}
+
+.wd-user-two {
+    margin-left:-10px;
+    display :inline-block;
+    font-size:15px;
+    color: darkgrey;
+}
+
+.wd-more-icon-two{
+    float :right;
+    padding-right :16px;
+    color:lightgrey;
+}
+
+.wd-post{
+    padding:12px;
+    margin-top :-23px;
+    /* todo check width */
+    width:506px;
+    color:white;
+    font-size:15px;
+    padding-right:16px;
+}
+
+
+.wd-div-three {
+    width:504px;
+    height:264px;
+    padding-left:90px;
+    padding-top :12px;
+
+}
+.wd-post-img{
+    width:504px;
+    height:264px;
+    border-radius:30px 30px 0px 0px;
+
+}
+.wd-img-border{
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+
+.wd-content{
+    padding:12px;
+    margin-top :-23px;
+    width:506px;
+    color:white;
+    font-size:15px;
+    padding-right:16px;
+}
+
+.wd-width-check {
+    margin-left:80px;
+}
+
+.wd-lightgrey {
+    color:lightgrey;
+    margin-top:-36px;
+}
+
+.wd-twelve-px{
+    padding:12px;
+    width:484px;
+}
+
+.wd-gap{
+    margin-top:1px;
+}
+
+.wd-twelve-px{
+    padding:12px;
+    width:484px;
+}
+
+.wd-lightgrey {
+    color:lightgrey;
+    margin-top:-36px;
+}
+
+.wd-fourth-container{
+    width: 504px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius:0px 0px 30px 30px;
+    margin-top:-17px;
+    margin-left:90px;
+
+
+
+}
+
+.wd-type-one{
+    color:lightgrey;
+}
+.wd-type-two
+{
+    color:red;
+}
+.wd-fifth-container{
+    padding-top:12px;
+    padding-left:90px;
+    width:504px;
+    display :flex;
+    justify-content: space-between;
+}
+.wd-button{
+    background-color: black;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border :none;
+}
+.wd-margin-left{
+    margin-left:80px;
+}
