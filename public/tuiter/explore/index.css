@@ -1,227 +1,321 @@
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
+.wd-color-black{
+    color:black;
 }
-
-.wd-searchbar-font- {
-    font-size:16px;
-    color: rgb( 110, 118, 125);
+.wd-image-width{
+    width:50px;
+    height:50px;
 }
-
-.wd-search-bar-round {
-    width: 800px;
-    height: 30px;
-    padding-top: 10px;
-    font-size: 18px;
-    padding-left: 10px;
-    color: #ffffff;
-    background-color: #a9a9a9;
+.wd-font-size-small{
+    font-size: 0.6em;
 }
-
-.wd-main-page-style {
-    margin-top : -22px;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    border-width: 1px;
-    border-top: none;
-    border-bottom: none;
+.wd-fa-font-size-xs{
+    font-size: 0.5em;
 }
-
-.wd-container-one {
-    display: flex;
+.wd-div-one {
+    margin-top :-11px;
+    margin-left :-30px;
+    margin-right :30px;
+    position:relative;
 }
-
-.wd-container-one-one {
-    background-color: #a9a9a9;
-    border-radius: 70px;
-    width: 1100px;
+.wd-search-bar {
+    background-color : #212529;
+    border-radius: 30px;
+    width:90%;
     margin:30px;
 }
-
-.wd-container-two {
-    top: 30px;
-    right: 30px;
-    background-color: #000000;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    border: none;
+body {
+    overflow-x:hidden;
+    background-color:black;
+}
+.container.wd-override-bg-color {
+    background-color:black;
 }
 
-.wd.setting-button {
-    position: absolute;
-    top: 42px;
-    padding-right: 12px;
-    background-color: transparent;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    border: none;
+.wd-color-grey {
+    color: grey
 }
-
-.wd-div-one {
-    display : flex;
-}
-
-.wd-div-part-one-one {
-    background-color : #3b3b3b;
-    border-radius: 70px;
-    width :80%;
-    margin:20px;
-}
-
-.wd-search {
-    padding : 10px;
-    font : 100px;
-}
-
-.wd-search-bar-rounded-tool {
-    background-color:  #3b3b3b;
+.wd-color-white{
     color:white;
-    width : 900px;
-    height  :30px;
-    padding-top : 10px;
+}
+.wd-color-red{
+    color:red;
+}
+
+.wd-color-black{
+    color:black;
+}
+
+.list-group-item{
+    background-color: black;
+    color:white;
+}
+.wd-color-grey
+{
+    color:lightgrey;
+}
+
+.disabled.wd-disabled{
+    background-color:black;
+}
+
+.active.wd-override-active{
+    background-color:white;
+    border:black;
+    font-weight:bold;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid transparent;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: transparent;
+    border-bottom: 4px solid cornflowerblue;
+}
+
+.wd-margin-right {
+    margin-right: 20px;
+}
+
+.wd-color-grey{
+    color: lightgrey;
+}
+
+.btn-primary.wd-bt-white{
+    background-color:white;
+    border :white;
+    color:black;
+}
+.text-secondary.wd-color-lightgrey{
+    color:lightgrey;
+}
+
+.wd-verified-icon {
+    margin-left: 2px;
+}
+.wd-col-2-list {
+    background-color:#212529;
+}
+.wd-col-3-curved-border {
+    border:black;
+    border-radius:15px;
+}
+
+.top-border-radius {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px
+}
+
+.wd-side-bar-footer {
+    color: rgb(110, 118, 125);
+}
+
+.wd-clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wd-footer-container {
+    float: left;
+    padding: 7px;
+}
+
+.wd-side-bar-footer {
+    color: rgb(110, 118, 125);
+}
+
+.bottom-border-radius {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px
+}
+.wd-border-col {
+    color:lightgrey;
+}
+.wd-main-image-width{
+    width:104%;
+    margin-left:-2%;
+}
+.wd-nav-width{
+    width:104%;
+}
+.wd-category-col {
+    position:relative;
+    display :inline;
+    margin-left:25px;
+    margin-top:-25px;
+}
+.wd-padding-left-right{
+    margin-left :-15px;
+    margin-top: -10px;
+}
+.wd-set-height {
+    margin-top:-28px;}
+.wd-toolbar-search-rounded {
+    padding-top :5px;
     border: none;
     outline: none;
-    font-size: 18px;
-    padding-left: 10px;
+    padding-left: 50px;
 }
-
-.wd-search-bar {
-    font-size:16px;
+.wd-placeholder {
+    position:relative;
     color: rgb( 110, 118, 125);
+    top:1%;
+    left:-8%;
+    border: none;
+    outline: none;
+    background-color:transparent;
 }
-
-.wd-div-two {
-    top: 30px;
-    right:30px;
-    background-color: black;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    border :none;
+.wd-icon-search {
+    color: black;
+    padding : 10px;
+    margin-left: 10px;
+    font : 50px;
 }
-
-.wd-setting-icon {
-    position: absolute;
-    top: 38px;
-    padding-right:12px;
+.wd-setting-container {
+    margin-top:-10px;
+    left:27%;
     background-color: transparent;
-    cursor:pointer;
-    overflow: hidden;
     outline:none;
     border :none;
 }
-
-.wd-setting-icon-style {
+.wd-setting-on1 {
+    color:white;
     border :none;
-    color:rgb(29,161,242);
-    width : 40px;
-    height : 40px;
     margin : none;
     outline :none;
 }
+.wd-button-setting {
+    position: absolute;
+    left:100%;
+    top:10%;
+    background-color: transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border :none;
+}
+.wd-round-img{
+    margin-left : 0;
+}
 
-.wd-div-two{
-    display : flex;
-    justify-content: space-between;
-    color: rgb( 110, 118, 125);
+.wd-font-size-xl {
+    font-size: x-large;
+}
+
+.wd-margin-left {
+    margin-left: 5px;
+}
+.wd-bold-text {
     font-weight: bold;
-    font-size: 15px;
-    padding: 16px;
+}
+.wd-nav-top-margin {
     margin-top:-10px;
 }
-
-.wd-tab-selection-element-one{
-    color:rgb(29,161,242);
+.wd-l-position{
+    position : relative;
+    top:23px;
+    right: 65px;
+}
+.wd-left-position{
+    position : relative;
+    top:-11px;
+    right:-39px;
 }
 
-.wd-first-selection{
-    padding: 5px;
-    border-bottom:4px solid;
-    border-radius:2px;
-    border-color:rgb(29,161,242);
+.list-group-item-info.override-bs3 {
+    border: 0px;
+    color: white;
+    background-color: rgb(32,32,32);
 }
 
-body {
-    background-color : black;
-    padding : 16px;
-    font-family: arial;
+.list-group-item-info.override-bs3 {
+    border: 0px;
+    color: white;
+    background-color: rgb(32,32,32);
+}
+
+.list-group-item-info.override-bs3 {
+    border: 0px;
+    color: white;
+    background-color: rgb(32,32,32);
 }
 
 .wd-image-icon {
-    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+}
+
+.wd-float-left {
     float: left;
-    margin-top: 5px;
-    margin-right: 5px;
-}
-
-.wd-seperator {
-    width: 100%;
-    height: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #3b3b3b;
-    margin-top: -8px;
-}
-
-.wd-div-three {
-    font-family: arial;
-    padding: 16px;
-}
-
-.wd-trending-topic {
-    font-size:13px;
-    color:rgb(110, 118, 125);
-}
-
-.wd-title-name {
-    font-size:13px;
-    color:white;
-}
-
-.wd-three-dot-icon {
-    float :right;
-    padding-right :16px;
+    padding-right: 5px;
 }
 
 .wd-text-bold {
     font-weight: bold;
 }
 
-.wd-trending-title{
-    color: white;
-    margin-top: 8px;
+.wd-side-column-font-size {
+    font-size: 14px;
 }
 
-.wd-tuit-count {
-    font-size:13px;
-    color:rgb(110, 118, 125);
-    margin-top: 8px;
+
+.wd-left-two{
+    position : relative;
+    top:-10px;
+    right:-39px;
+}
+.wd-left-three{
+    position : relative;
+    top:20px;
+    right:152px;
+}
+.wd-left-four{
+    position : relative;
+    top:20px;
+    right:146px;
 }
 
-.wd-time-post {
-    display:inline;
-    font-size:13px;
-    color:rgb(110, 118, 125);
+.wd-color-transparent {
+    color: #00FFFFFF;
 }
-
-.wd-figure{
-    width: 125px;
-    height: 100px;
-    border-radius: 30px 35px 35px 30px;
+.overlay{
     position: relative;
-    overflow: hidden;
-    float :right;
-    padding-right :16px;
-    margin-top: -8px;
+    bottom: 35px;
+    left: 10px;
+}
+.wd-button-follow {
+    position : relative;
+    left : 120px;
+    width : 80px;
+}
+.wd-button-follow-right{
+    float:right;
+    width : 80px;
 }
 
-hr {
-    border-width: 1px;
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    padding : 0px;
+.wd-width-col-3 {
+    width:350px;
 }
-
-
-
+.wd-moveup{
+    position : relative;
+    margin-top:-38px;
+}
+.wd-category-top-margin {
+    margin-top:-15px;
+}
+.wd-move-right {
+    margin-left : -11px;}
+hr{
+    color:lightgrey;
+    margin-top:-10px;
+    margin-bottom:-10px;
+    margin-left:-14px;
+    width:105%;
+}
+.wd-tweet-up {
+    margin-top:-15px;}
+.wd-inline{
+    display:inline;}
+.wd-view-port{
+    font-size: 1.2vw;
+}
