@@ -1,14 +1,23 @@
-const NavigationSidebar = () => {
-    return(`
+const NavigationSidebar = (active) => {
+    return (`
         <div class="col-2 col-xl-2 col-xxl-2 col-sm-2 col-xs-2 col-md-2 col-lg-1">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">
                     <i class="fab fa-twitter wd-color-grey"></i>
                 </a>
-                <a href="./home/index.html" class="list-group-item list-group-item-action d-print-inline">
+                
+        ${active === 'home' ? 
+        `<a href="../HomeScreen/index.html" class="list-group-item wd-list-color list-group-item-action active wd-override-active" aria-current="true">`
+        : ` <a href="../HomeScreen/index.html" class="list-group-item wd-list-color list-group-item-action d-print-inline">
+                     `}
                     <i class="fa fa-home wd-color-grey"></i>
                     <span class ="d-none d-xl-block wd-category-col wd-color-grey">Home</span></a>
-                <a href="#" class="list-group-item list-group-item-action active wd-override-active" aria-current="true">
+            
+            ${active === 'explore'?
+        `<a href="../explore/index.html" class="list-group-item wd-list-color list-group-item-action active wd-override-active" aria-current="true">`
+        : `<a href="../explore/index.html" class="list-group-item wd-list-color list-group-item-action d-print-inline">
+                      `}                    
+                    
                     <i class="fa fa-hashtag wd-color-grey"></i>
                     <span class ="d-none d-xl-block wd-category-col wd-color-grey">Explore</span></a>
                 <a href="./notification/index.html" class="list-group-item list-group-item-action ">
