@@ -10,7 +10,8 @@ const PostItem = (posts) =>  {
     <div class="col-8 d-inline wd-user">
         <div class ="col">
         <div class ="wd-caption">
-        <p class = "fw-bold d-inline wd-white">${posts.name}</p><i class="fa fa-check wd-white d-inline p-2"></i>
+  
+            <p class = "fw-bold d-inline wd-white">${posts.name}</p><i class="fa fa-check-circle wd-white d-inline p-2"></i>
         <p class = "wd-grey d-inline">${posts.handle}</p>
         <p class = "d-inline wd-grey">-${posts.timeOfTweet}</p>
 
@@ -57,7 +58,7 @@ const PostItem = (posts) =>  {
             <div>
                 <form action="#">
                     <button class="wd-button">
-                        <i class="fa fa-solid fa-heart wd-type-two"> ${posts.likes}</i>
+                            <i class="fa fa-heart wd-type-two"> ${posts.likes}</i>
                     </button>
                 </form>
             </div>
