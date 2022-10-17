@@ -11,7 +11,7 @@ const WhoToFollowListItem = (who) => {
                         <div class="wd-float-left wd-text-bold wd-side-column-font-size">${who.userName}</div>
                         <i class="fa fa-check-circle wd-float-left pt-1"></i>
                         <br>
-                        <div class="wd-title wd-side-column-font-size">${who.handler}</div>
+                        <div class="wd-title wd-side-column-font-size">${who.handle}</div>
 
                     </div>
                     <div class="col-3">
