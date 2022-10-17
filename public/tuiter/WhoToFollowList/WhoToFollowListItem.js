@@ -1,7 +1,6 @@
-import whoItems from "./WhoItems";
-alert("hello");
+import who from "./Who.js";
 const WhoToFollowListItem = (who) => {
-    return(`<div class="list-group-item list-group-item-info override-bs3">
+    return(`<div class="list-group-item">
                 <div class="row">
                     <div class="col-2">
                         <img src= ${who.avatarIcon}
@@ -23,6 +22,4 @@ const WhoToFollowListItem = (who) => {
                 </div>
             </div>`);
 }
-export default WhoToFollowListItem ();
-
-$('#wd-explore').append(WhoToFollowListItem())
+export default WhoToFollowListItem;

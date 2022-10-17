@@ -45,5 +45,4 @@ const NavigationSidebar = () => {
  `);
 }
 export default NavigationSidebar;
-
-$('#wd-explore').append(NavigationSidebar())
+// $('#wd-explore').append(NavigationSidebar());
