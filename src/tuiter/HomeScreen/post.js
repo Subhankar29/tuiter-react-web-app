@@ -1,4 +1,4 @@
-export default [
+const post = [
     {
         userName: 'Elon Musk',
         handle: 'elonmusk',
@@ -30,3 +30,5 @@ export default [
         likesCount: "4K"
     },
 ];
+
+export default post;
