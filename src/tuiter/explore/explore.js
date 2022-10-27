@@ -9,7 +9,7 @@ const Explore = () => {
         <div>
             <div className="row pt-3">
                 <div className="col-3 col-lg-2 col-xl-2">
-                    <NavigationSidebar active="explore"/>
+                    <NavigationSidebar active="home"/>
                 </div>
                 <div className="col-9 col-lg-6 col-xl-6">
                     <ExploreScreen/>
