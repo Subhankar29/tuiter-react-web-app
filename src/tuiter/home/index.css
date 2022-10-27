@@ -1,0 +1,51 @@
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+    bottom: 18px;
+    left: 25px;
+}
+
+.wd-bottom-2 {
+    bottom: 2px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
+
+.wd-float-left{
+    float: left;
+}
+
+.wd-icon-distribution{
+    width: 20%;
+}
+
+.wd-blue-text{
+    color: dodgerblue;
+}
+
+.wd-blue-icon-bg{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 40px;
+}
+
+.wd-round-list{
+    border-radius: 10px;
+}
+
+.wd-round-list-order{
+    border-radius: 20px;
+}

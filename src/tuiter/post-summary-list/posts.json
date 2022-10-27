@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 123,
+    "topic": "Java",
+    "userName": "Java",
+    "title": "Java is widely used by several developers in the world. It has been amazing for every developers.",
+    "time": "2h",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+  },
+  {
+    "_id": 234,
+    "topic": "jQuery",
+    "userName": "jQuery",
+    "title": "jQuery is used for javaScript that is been used very extensively",
+    "time": "2h",
+    "image": "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"
+  },
+  {
+    "_id": 345,
+    "topic": "Code",
+    "userName": "NodeJS",
+    "title": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications. ",
+    "time": "4d",
+    "image": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+  }
+]
