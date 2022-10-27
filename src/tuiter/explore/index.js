@@ -27,11 +27,11 @@ const ExploreComponent = () => {
 
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">News</a>
+                    <a href = "/" className="nav-link">News</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src= {spaceship} className="w-100"/>
+                <img src= {spaceship} className="w-100" alt="123"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>

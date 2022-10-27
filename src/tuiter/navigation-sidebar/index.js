@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import home from "../HomeScreen/index"
 import {useLocation} from "react-router";
 
 const NavigationSidebar = () => {
