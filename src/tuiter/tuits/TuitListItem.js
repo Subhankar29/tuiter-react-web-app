@@ -31,10 +31,6 @@ const TuitListItem = ({
     const deleteTuit = (tuit) => {
         dispatch({type: "delete-tuit", tuit});
     };
-    const likeTuit = (tuit) => {
-        dispatch({type: "like-tuit", tuit});
-    };
-
 
     return (
         <>
@@ -46,7 +42,7 @@ const TuitListItem = ({
                         src={post["logo-image"] ? post["logo-image"] : ""}
                         width="40px"
                         height="40px"
-                    />
+                     alt={"123"}/>
                 </div>
 
                 <div className="row">
@@ -72,10 +68,11 @@ const TuitListItem = ({
                                 width="92%"
                                 height="100%"
                                 src={post.attachments.image ? post.attachments.image : ""}
-                            />
+                             alt={"123"}/>
                         )}
                         {post.attachments && post.attachments.video && (
                             <iframe
+                                title="myFrame"
                                 style={{
                                     borderRadius: "16px",
                                     border: "2px solid rgb(47, 51, 54)",

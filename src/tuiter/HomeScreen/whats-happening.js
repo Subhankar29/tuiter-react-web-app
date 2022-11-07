@@ -21,7 +21,7 @@ const WhatsHappening = () => {
           src="https://www.kindpng.com/picc/m/180-1801331_elon-musk-tesla-motors-chief-executive-spacex-neuralink.png"
           width="50px"
           height="50px"
-        />
+         alt={"123"}/>
       </div>
       <div style={{ width: "100%" }}>
         <textarea

@@ -1,4 +1,3 @@
-import Assignment6 from "./a6";
 import Nav from "../nav";
 import {Routes, Route} from "react-router";
 import Assignment7 from "./a7";

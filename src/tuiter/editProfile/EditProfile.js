@@ -25,7 +25,7 @@ const EditProfile = () => {
             </div>
 
             <div className="pt-3 position-relative">
-                <img src = {profile.bannerPicture} className ="img-fluid"/>
+                <img src = {profile.bannerPicture} className ="img-fluid" alt={"123"}/>
                 <div className="card-img-overlay">
                     <div className= "wd-over">
                         <i className="fa fa-camera"></i>

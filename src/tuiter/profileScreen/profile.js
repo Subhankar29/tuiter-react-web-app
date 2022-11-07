@@ -26,7 +26,7 @@ const ProfileScreen = () => {
             <div className="row">
                 <h4 className="fw-bold d-inline">{profile.firstName} {profile.lastName}</h4>
                 <p className="wd-handle-one-profile">5,634 Tweets</p>
-                <img src = {profile.bannerPicture} className ="wd-img-one w-100% position-relative"/>
+                <img src = {profile.bannerPicture} className ="wd-img-one w-100% position-relative" alt={"123"}/>
             </div>
             <div className ="pt-3">
                 <Link to="/tuiter/edit-profile">
