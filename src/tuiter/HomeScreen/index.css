@@ -262,6 +262,18 @@
     border-top-right-radius: 25px;
 }
 
+.wd-make{
+    margin-left:3px;}
+
+.wd-img-width-all{
+    width:50px;
+    height:50px;
+}
+
+.wd-img{
+    margin-left :-10px;
+}
+
 .wd-user-handle {
     color: rgb(110, 118, 125);
 }
@@ -269,3 +281,79 @@
 .wd-post-summary-list-font-size {
     font-size:10px;
 }
+
+.wd-user {
+    margin-top: -45px
+}
+
+.wd-grey-one {
+    color: black;
+    margin-left: 3px;
+}
+
+.wd-grey-two {
+    color: grey;
+    margin-left: 5px;
+}
+
+.wd-aappaak{
+    margin-left:102%;
+}
+
+.wd-caption {
+    width: 97%;
+    padding-left: 55px;
+}
+
+.wd-paakaap{
+    margin-left:2%;
+}
+
+.wd-black {
+    color: black;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-userName {
+    margin-top: 50px;
+}
+
+.wd-grey-two {
+    color: grey;
+    margin-left: 5px;
+}
+
+.wd-attachments {
+    padding-left: 50px;
+}
+
+.wd-fifth-container {
+    padding-top: 2%;
+    margin-bottom: 1%;
+    padding-left: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.wd-type-two {
+    color: red;
+}
+
+.wd-button {
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+.wd-type-one-button {
+    color: black;
+    background-color: transparent;
+}
+

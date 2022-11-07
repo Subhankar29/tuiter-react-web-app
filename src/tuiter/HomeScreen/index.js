@@ -1,17 +1,19 @@
-import PostItem from "./PostItem";
-import post from "./post";
 import './index.css';
+import TuitList from "../tuits";
+import {useDispatch} from "react-redux";
+import {useEffect} from "react";
+import WhatsHappening from "./whats-happening";
 
 const HomeScreen = () => {
+    const dispatch = useDispatch();
+    useEffect(() => {
+       dispatch({type: "set-parameter", changeState: "home"});
+    });
+
     return(
         <div>
-            <ul className="list-group wd-font-size">
-                {
-                post.map(p => {
-                    return(<PostItem userName={p.userName} handle={p.handle} time={p.time} tagline={p.tagline} profileImage={p.profileImage} descriptionImage={p.descriptionImage} topic={p.topic} description={p.description} link={p.link} linkText={p.linkText} commentsCount={p.commentsCount} retweetsCount={p.retweetsCount} likesCount={p.likesCount}/>)
-                })
-            }
-            </ul>
+            <WhatsHappening/>
+           <TuitList/>
         </div>
     );
 }

@@ -44,7 +44,7 @@ const NavigationSidebar = () => {
                     <i className="fa fa-list"></i>
                     <span className="d-none d-xl-inline">Lists</span>
                 </Link>
-                <Link to="#"
+                <Link to= "/tuiter/profile"
                       className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
                     <i className="fa fa-user"></i>
                     <span className="d-none d-xl-inline">Profile</span>
@@ -98,7 +98,6 @@ const NavigationSidebar = () => {
                 <button type="button" className="btn btn-primary btn-lg btn-block rounded-pill">Tweet</button>
             </div>
         </div>
-
     );
 }
 export default NavigationSidebar;

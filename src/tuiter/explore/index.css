@@ -345,3 +345,60 @@ hr{
 .wd-bottom-4 {
     bottom: 4px;
 }
+
+.wd-handle-one-profile{
+    margin-top:-13px;
+}
+
+.wd-grey {
+    color: lightgrey;
+}
+.wd-img {
+    margin-left: -10px;
+}
+
+.wd-size {
+    width: 20px;
+    height: 20px;
+    margin-top: 330px;
+    margin-left: 60px;
+    border: 1px solid black;
+}
+
+.wd-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.wd-img-width-all-one{
+    width: 20px;
+    height: 20px;
+    margin-top: 330px;
+    margin-left: 60px;
+    border: 1px solid black;
+}
+
+.wd-handle-one-profile-two {
+    margin-top: -50px;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-extra{
+    display :flex;
+    background-color:transparent;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-b{
+    margin-left:5px;
+}
+
+.wd-a{
+    margin-left:30px;
+}
+
