@@ -8,6 +8,7 @@ const TuitListItem = ({
                               topic: "Web Development",
                               username: "ReactJS",
                               likes: 345,
+                              dislikes: 1,
                               postedBy: {
                                   username: "ReactJS",
                               },

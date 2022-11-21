@@ -51,6 +51,25 @@ const TuitStats = ({tuit}) => {
                 </button>
 
             </div>
+
+            <div>
+
+                <button className="wd-button">
+
+                        <span onClick={() => updateTuit(dispatch, {
+                            ...tuit,
+                            dislikes: tuit.dislikes + 1
+                        })} className="wd-type-one-button">
+                            {
+                                <i className="fa fa-thumbs-down wd-type-one-button"></i>
+                            }
+                            {tuit.dislikes}
+                        </span>
+
+                </button>
+
+            </div>
+
             <div>
 
                 <button className="wd-button">
