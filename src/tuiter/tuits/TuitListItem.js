@@ -1,10 +1,13 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
+import {deleteTuit} from "../../services/tuits-thunks";
 
 const TuitListItem = ({
                           post = {
                               _id: "123",
                               topic: "Web Development",
+                              username: "ReactJS",
+                              likes: 345,
                               postedBy: {
                                   username: "ReactJS",
                               },
@@ -18,8 +21,8 @@ const TuitListItem = ({
                               attachments: {
                                   video: "unKvMC3Y1kI",
                               },
-                              "logo-image": "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg",
-                              "avatar-image": "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg",
+                              "logoImage": "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg",
+                              avatarImage: "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg",
                               stats: {
                                   comments: 123,
                                   retuits: 234,
@@ -28,9 +31,9 @@ const TuitListItem = ({
                           },
                       }) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: "delete-tuit", tuit});
-    };
+    // const deleteTuit = (tuit) => {
+    //     dispatch({type: "delete-tuit", tuit});
+    // };
 
     return (
         <>
@@ -39,7 +42,7 @@ const TuitListItem = ({
                 <div className="pt-2 col-2">
                     <img
                         className="rounded-circle wd-img wd-img-width-all wd-make"
-                        src={post["logo-image"] ? post["logo-image"] : ""}
+                        src={post["logoImage"] ? post["logoImage"] : ""}
                         width="40px"
                         height="40px"
                      alt={"123"}/>
@@ -48,10 +51,10 @@ const TuitListItem = ({
                 <div className="row">
                     <div className="col-10 d-inline">
                         <div className="wd-caption wd-user" style={{width: "120%"}}>
-                            <p className="fw-bold d-inline wd-grey-one">{post.postedBy.username}</p>
+                            <p className="fw-bold d-inline wd-grey-one">{post.username}</p>
                             <p className="wd-grey-two d-inline wd-up">@{post.handle}</p>
                             <p className="d-inline wd-grey-two">-{post.time}</p>
-                            <i onClick={() => deleteTuit(post)} className="fa fa-times fa-lg wd-aappaak"></i>
+                            <i onClick={() => deleteTuit(dispatch,post)} className="fa fa-times fa-lg wd-aappaak"></i>
                         </div>
 
                     </div>

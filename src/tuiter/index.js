@@ -15,7 +15,7 @@ import ProfileScreen from "./profileScreen/profile";
 import EditProfile from "./editProfile/EditProfile";
 
 const store = configureStore(
-    {reducer: {posts: postsReducer, who: whoReducer, tuits: tuitHomeReducer, tuitsHome: tuitHomeReducer, ProfileScreenReducer}}
+    {reducer: {posts: postsReducer, who: whoReducer, tuitsReducer: tuitHomeReducer, tuitsHome: tuitHomeReducer, ProfileScreenReducer}}
 );
 
 function Tuiter() {

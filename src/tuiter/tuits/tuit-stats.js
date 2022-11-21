@@ -1,4 +1,5 @@
 import {useDispatch} from "react-redux";
+import {updateTuit} from "../../services/tuits-thunks";
 import 'font-awesome/css/font-awesome.min.css';
 
 const TuitStats = ({tuit}) => {
@@ -14,14 +15,14 @@ const TuitStats = ({tuit}) => {
             <div>
 
                 <button className="wd-button">
-                    <i className="fa fa-thin fa-comment wd-type-one-button"> {tuit.stats.comments}</i>
+                    <i className="fa fa-thin fa-comment wd-type-one-button"> {tuit.comments}</i>
                 </button>
 
             </div>
             <div>
 
                 <button className="wd-button">
-                    <i className="fa fa-thin fa-retweet wd-type-one-button"> {tuit.stats.retuits}</i>
+                    <i className="fa fa-thin fa-retweet wd-type-one-button"> {tuit.retuits}</i>
                 </button>
 
             </div>
@@ -31,7 +32,11 @@ const TuitStats = ({tuit}) => {
 
                 <button className="wd-button">
 
-                        <span onClick={likeTuit} className="wd-type-one-button">
+                        <span onClick={() => updateTuit(dispatch, {
+                            ...tuit,
+                            likes: tuit.likes + 1,
+                            liked: true
+                        })} className="wd-type-one-button">
                         {
                             tuit.liked &&
                             <i className="fa fa-solid fa-heart wd-type-two"></i>
@@ -40,7 +45,7 @@ const TuitStats = ({tuit}) => {
                                 !tuit.liked &&
                                 <i className="fa fa-solid fa-heart wd-type-one-button"></i>
                             }
-                            {tuit.stats && tuit.stats.likes}
+                            {tuit.likes}
                         </span>
 
                 </button>

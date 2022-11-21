@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { createTuit } from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
-  let [whatsHappening, setWhatsHappening] = useState({ text: "" });
+  let [whatsHappening, setWhatsHappening] = useState({ tuit: "" });
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
       dispatch({ type: "create-tuit", tuit: whatsHappening.text });
@@ -30,7 +31,8 @@ const WhatsHappening = () => {
           style={{ fontSize: "15px",color: "black",borderBottom: "1px solid rgb(47, 51, 54)",
           }}
           onChange={(event) => {
-            setWhatsHappening({ text: event.target.value });
+            setWhatsHappening({ tuit: event.target.value,
+            });
           }}
           placeholder="What's Happening?"
         ></textarea>
@@ -46,7 +48,7 @@ const WhatsHappening = () => {
           <button
             className="btn btn-primary float-end m-2"
             style={{ borderRadius: "24px" }}
-            onClick={tuitClickHandler}>Tuit</button>
+            onClick={() => createTuit(dispatch, whatsHappening)}>Tuit</button>
         </div>
       </div>
     </div>
