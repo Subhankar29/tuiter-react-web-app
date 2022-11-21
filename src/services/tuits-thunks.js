@@ -1,20 +1,9 @@
-import {createAsyncThunk} from "@reduxjs/toolkit";
 import * as service from "./tuits-service";
-import tuits from "../tuiter/tuits";
-import {findTuits} from "./tuits-service";
 
 export const CREATE_TUIT = 'CREATE_TUIT';
 export const FIND_ALL_TUITS = 'FIND_ALL_TUITS';
 export const UPDATE_TUIT = 'UPDATE_TUIT';
 export const DELETE_TUIT = 'DELETE_TUIT';
-
-// export const findAllTuits =
-//     createAsyncThunk(
-//
-//     'tuits/findTuits', async () =>
-//         await service.findTuits()
-//
-// )
 
 export const createTuit = async (dispatch, tuit) => {
     const newTuit= await service.createTuit(tuit);
@@ -47,19 +36,3 @@ export const updateTuit = async (dispatch, tuit) => {
         tuit
     });
 }
-
-// export const findAllTuits = async (dispatch) => {
-//     const tuits = await service.findTuits();
-//     dispatch({
-//         type: FIND_ALL_TUITS,
-//         tuits
-//     });
-// }
-
-// export const deleteTuit = createAsyncThunk(
-//     'tuits/deleteTuit',
-//     async (tuit) => {
-//         await service.deleteTuit(tuit)
-//         return tuit
-//     }
-//     )

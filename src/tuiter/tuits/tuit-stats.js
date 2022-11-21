@@ -4,9 +4,6 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
-    const likeTuit = () => {
-        dispatch({type: 'like-tuit', tuit});
-    };
 
     return (
 

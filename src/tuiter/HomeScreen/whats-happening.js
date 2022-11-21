@@ -5,10 +5,6 @@ import { createTuit } from "../../services/tuits-thunks";
 const WhatsHappening = () => {
   let [whatsHappening, setWhatsHappening] = useState({ tuit: "" });
     const dispatch = useDispatch();
-    const tuitClickHandler = () => {
-      dispatch({ type: "create-tuit", tuit: whatsHappening.text });
-    };
-
 
   return (
     <div
