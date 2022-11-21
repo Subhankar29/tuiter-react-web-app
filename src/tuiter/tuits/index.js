@@ -11,7 +11,7 @@ const TuitList = () => {
 
         dispatch(findAllTuits)
 
-    }, [])
+    }, )
 
     console.log("Data ---->");
     console.log(tuiter);
